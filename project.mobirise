@@ -6,14 +6,14 @@
       "name": "unicore",
       "title": "Unicore",
       "styling": {
-        "primaryColor": "#29d9c2",
-        "successColor": "#7ac673",
+        "primaryColor": "#03a9f4",
+        "successColor": "#00bcd4",
         "infoColor": "#27aae0",
         "warningColor": "#faaf40",
         "dangerColor": "#f97352",
         "titleFont": "Montserrat",
         "textFont": "Raleway",
-        "isSquareButtons": false
+        "isSquareButtons": true
       },
       "additionalSetColors": [
         "#ffffff"
@@ -337,7 +337,7 @@
             "overlay": true,
             "overlayColor": "#151515",
             "overlayOpacity": 0.75,
-            "iconsColor": "@primaryColor",
+            "iconsColor": "#03a9f4",
             "icon1": "fa-map-marker",
             "icon2": "fa-phone",
             "icon3": "fa-envelope"
@@ -352,7 +352,12 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-7"
+          "_anchor": "contacts1-7",
+          "_styles": {
+            ".contact-info i": {
+              "color": "#03a9f4 !important"
+            }
+          }
         }
       ]
     }
